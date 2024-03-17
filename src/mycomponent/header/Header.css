@@ -1,0 +1,19 @@
+ .header{
+    background-color: rgb(2 141 111);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.header a
+{
+    margin: 10px;
+    text-decoration: none;
+    color:rgb(72 187 158);
+    font-weight:900;
+    font-size: 20px;
+
+     }
+      
