@@ -51,12 +51,12 @@ export default class Home extends Component {
       // items: allitems,
       items: items.filter((value, index) => index !== key),
     });
-    console.log(items);
+    
   };
   render() {
     console.log("edited value=" + this.state.val);
     const { items, editview } = this.state;
-    console.log(items);
+    
     return (
       <div className="Home">
         {editview && (

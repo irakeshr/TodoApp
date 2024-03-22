@@ -14,10 +14,10 @@ export default function App() {
     <>
       <Router>
         <Header />
+        <Home/>
         <Routes> 
-          
         <Route path="/edit" Component={Editpage} />
-          <Route path="/" Component={Home}/>
+          <Route exact path="/" Component={Home}/>
           <Route path="/about" Component={About} />
         </Routes>
         <Footer/>
