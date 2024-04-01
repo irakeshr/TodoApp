@@ -14,7 +14,6 @@ export default function App() {
     <>
       <Router>
         <Header />
-        <Home/>
         <Routes> 
         <Route path="/edit" Component={Editpage} />
           <Route exact path="/" Component={Home}/>
