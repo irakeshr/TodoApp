@@ -24,7 +24,7 @@ export default function Editpage({ editdata,newfun }) {
             placeholder="Note Here..."
             onChange={onhandle}
           />
-          <button>Edit</button>
+          <button>Update</button>
         </form>
       </div>
     </div>
